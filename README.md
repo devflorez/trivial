@@ -4,7 +4,7 @@ Esta aplicación esta desarrollada con **NextJS**, haciendo uso de **SSR** (Serv
 
 Además se hace uso de useContext, CreateContext y useReducer para manejar el estado de la aplicación.
 **Más proyectos:** [devflorez.com](https://devflorez.com/)
-**Link:**
+**Link:** https://trivial-sepia.vercel.app/
 
 ## Welcome to the repository
 
@@ -12,5 +12,5 @@ This application is developed with **NextJS**, making use of **SSR** (Server Sid
 
 In addition, useContext, CreateContext and useReducer are used to handle the state of the application.
 
-**Link:**
+**Link:** https://trivial-sepia.vercel.app/
 **More projects:** [devflorez.com](https://devflorez.com/)
