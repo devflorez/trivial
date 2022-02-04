@@ -1,0 +1,23 @@
+.cardQuestion {
+  background-color: $secondary;
+  border-radius: 20px;
+  padding: 20px;
+  &--header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    span {
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: $grey;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+  }
+  &--question {
+    background-color: $grey;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+}

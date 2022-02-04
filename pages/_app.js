@@ -1,7 +1,10 @@
-import '../styles/globals.css'
+import "../styles/globals.scss";
+import { TriviaProvider } from "../context/TriviaContext";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+  return (
+    <TriviaProvider>
+      <Component {...pageProps} />
+    </TriviaProvider>
+  );
 }
-
-export default MyApp

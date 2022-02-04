@@ -1,0 +1,15 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  flex-direction: column;
+  a {
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

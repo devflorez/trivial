@@ -1,0 +1,13 @@
+// Importaciones de todas las hojas de estilo de la aplicación
+
+//Color
+@import "./colors.scss";
+//Pages
+@import "./pages/index.scss";
+@import "./pages/quiz.scss";
+@import "./pages/result.scss";
+//Components
+@import "../components/Layout/Layout.scss";
+@import "../components/CardQuestion/CardQuestion.scss";
+@import "../components/Loading/Loading.scss";
+@import "../components/Error/Error.scss";
