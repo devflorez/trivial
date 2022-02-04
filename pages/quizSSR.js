@@ -34,7 +34,7 @@ export default function QuizSSR({ questions }) {
     <Layout>
       <div className="quiz">
         <header className="quiz--header">
-          <h1>QuizSWR</h1>
+          <h1>QuizSSR</h1>
           <span>
             {currentQuestion + 1}/{questions.length}
           </span>
